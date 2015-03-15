@@ -5,5 +5,10 @@ class InputVector
   {
     this.input = new int[vector_size];
   }
+  
+  void setData(int[] data)
+  {
+    this.input = data;
+  }
  
 }
